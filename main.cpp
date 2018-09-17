@@ -82,7 +82,11 @@ int randomSelected(int A[],int p,int q,int i){
 
 }
 
-
+/*
+ * first generate the array using rand() function
+ * then operate the randomized selected function on the array A
+ * the last parameter is the i-th element we want to find in a sorted array
+ */
 int main() {
     int A[N];
     srand((unsigned)time(NULL));
